@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moji roztomilí pejsci</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Moji roztomilí pejsci</h1>
+        <div class="dogs-container">
+            <div class="dog-card">
+                <h2>Rex</h2>
+                <div class="dog" id="dog1">
+                    <div class="body"></div>
+                    <div class="ear left"></div>
+                    <div class="ear right"></div>
+                    <div class="eye left"></div>
+                    <div class="eye right"></div>
+                    <div class="nose"></div>
+                    <div class="tail"></div>
+                    <div class="tongue"></div>
+                    <div class="zzz"></div>
+                </div>
+                <div class="status">
+                    <div class="status-bar">
+                        <span>Štěstí:</span>
+                        <div class="bar">
+                            <div class="fill" id="happiness-bar1"></div>
+                        </div>
+                        <span id="happiness-value1">100%</span>
+                    </div>
+                    <div class="status-bar">
+                        <span>Hlad:</span>
+                        <div class="bar">
+                            <div class="fill" id="hunger-bar1"></div>
+                        </div>
+                        <span id="hunger-value1">100%</span>
+                    </div>
+                    <div class="status-bar">
+                        <span>Energie:</span>
+                        <div class="bar">
+                            <div class="fill" id="energy-bar1"></div>
+                        </div>
+                        <span id="energy-value1">100%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dog-card">
+                <h2>Luna</h2>
+                <div class="dog" id="dog2">
+                    <div class="body"></div>
+                    <div class="ear left"></div>
+                    <div class="ear right"></div>
+                    <div class="eye left"></div>
+                    <div class="eye right"></div>
+                    <div class="nose"></div>
+                    <div class="tail"></div>
+                    <div class="tongue"></div>
+                    <div class="zzz"></div>
+                </div>
+                <div class="status">
+                    <div class="status-bar">
+                        <span>Štěstí:</span>
+                        <div class="bar">
+                            <div class="fill" id="happiness-bar2"></div>
+                        </div>
+                        <span id="happiness-value2">100%</span>
+                    </div>
+                    <div class="status-bar">
+                        <span>Hlad:</span>
+                        <div class="bar">
+                            <div class="fill" id="hunger-bar2"></div>
+                        </div>
+                        <span id="hunger-value2">100%</span>
+                    </div>
+                    <div class="status-bar">
+                        <span>Energie:</span>
+                        <div class="bar">
+                            <div class="fill" id="energy-bar2"></div>
+                        </div>
+                        <span id="energy-value2">100%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dog-card">
+                <h2>Max</h2>
+                <div class="dog" id="dog3">
+                    <div class="body"></div>
+                    <div class="ear left"></div>
+                    <div class="ear right"></div>
+                    <div class="eye left"></div>
+                    <div class="eye right"></div>
+                    <div class="nose"></div>
+                    <div class="tail"></div>
+                    <div class="tongue"></div>
+                    <div class="zzz"></div>
+                </div>
+                <div class="status">
+                    <div class="status-bar">
+                        <span>Štěstí:</span>
+                        <div class="bar">
+                            <div class="fill" id="happiness-bar3"></div>
+                        </div>
+                        <span id="happiness-value3">100%</span>
+                    </div>
+                    <div class="status-bar">
+                        <span>Hlad:</span>
+                        <div class="bar">
+                            <div class="fill" id="hunger-bar3"></div>
+                        </div>
+                        <span id="hunger-value3">100%</span>
+                    </div>
+                    <div class="status-bar">
+                        <span>Energie:</span>
+                        <div class="bar">
+                            <div class="fill" id="energy-bar3"></div>
+                        </div>
+                        <span id="energy-value3">100%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <div class="control-group">
+                <h3>Rex</h3>
+                <button onclick="feedDog(1)">Nakrm 🍖</button>
+                <button onclick="playWithDog(1)">Hraj si 🎾</button>
+                <button onclick="petDog(1)">Podrbej 🐾</button>
+                <button onclick="getLicked(1)">Nech se olíznout 👅</button>
+                <button onclick="sleepDog(1)">Spát 😴</button>
+            </div>
+            <div class="control-group">
+                <h3>Luna</h3>
+                <button onclick="feedDog(2)">Nakrm 🍖</button>
+                <button onclick="playWithDog(2)">Hraj si 🎾</button>
+                <button onclick="petDog(2)">Podrbej 🐾</button>
+                <button onclick="getLicked(2)">Nech se olíznout 👅</button>
+                <button onclick="sleepDog(2)">Spát 😴</button>
+            </div>
+            <div class="control-group">
+                <h3>Max</h3>
+                <button onclick="feedDog(3)">Nakrm 🍖</button>
+                <button onclick="playWithDog(3)">Hraj si 🎾</button>
+                <button onclick="petDog(3)">Podrbej 🐾</button>
+                <button onclick="getLicked(3)">Nech se olíznout 👅</button>
+                <button onclick="sleepDog(3)">Spát 😴</button>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 
